@@ -21,6 +21,9 @@ with open(file_to_save, "w") as txt_file:
     #Write soem data to the file.
     txt_file.write("Counties in the Election\n------------------------\nArapahoe\nDenver\nJefferson")
 
+# Initialize total votes variable
+total_votes = 0
+
 with open(file_to_load) as election_data:
 
     #To do: read and analyze the data here. 
@@ -28,8 +31,16 @@ with open(file_to_load) as election_data:
     # Read the file object with the reader function
     file_reader = csv.reader(election_data)
 
-    #Print the header row.
+    # Read the header row.
     headers = next(file_reader)
-    print(headers)
-    
+
+    # Print each row in the CSV file.
+    for row in file_reader:
+        print(row)
+
+        # Increment vote counter
+        total_votes += 1
+
+# Print the total votes
+print(total_votes)
     
