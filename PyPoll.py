@@ -25,6 +25,8 @@ with open(file_to_save, "w") as txt_file:
 total_votes = 0
 # Initialize candidate list
 candidate_options = []
+# Declare candidate-vote dictionary
+candidate_votes = {}
 
 # Open and read CSV
 with open(file_to_load) as election_data:
@@ -49,6 +51,15 @@ with open(file_to_load) as election_data:
         if candidate_name not in candidate_options:
             # Add candidate to list of options
             candidate_options.append(candidate_name)
+
+            # Begin tracking candidate's vote count
+            candidate_votes[candidate_name] = 0
+
+        # Add a vote to that candidate's count
+        candidate_votes[candidate_name] += 1
+
+# Print the candidate vote dictionary
+print(candidate_votes)
 
 # Print the candidate list.
 print(candidate_options)
