@@ -23,7 +23,10 @@ with open(file_to_save, "w") as txt_file:
 
 # Initialize total votes variable
 total_votes = 0
+# Initialize candidate list
+candidate_options = []
 
+# Open and read CSV
 with open(file_to_load) as election_data:
 
     #To do: read and analyze the data here. 
@@ -36,10 +39,19 @@ with open(file_to_load) as election_data:
 
     # Print each row in the CSV file.
     for row in file_reader:
-        print(row)
-
+        
         # Increment vote counter
         total_votes += 1
+
+        # Print the candidiate name from each row
+        candidate_name = row[2]
+        # If candidate does not match any existing candidate
+        if candidate_name not in candidate_options:
+            # Add candidate to list of options
+            candidate_options.append(candidate_name)
+
+# Print the candidate list.
+print(candidate_options)
 
 # Print the total votes
 print(total_votes)
