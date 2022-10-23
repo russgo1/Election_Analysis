@@ -8,7 +8,7 @@ The purpose of this audit is to determine election results by candidate and by c
 
 #### All of the analysis referenced here was done based on the contents of the “election_results.csv” file located in the “Resources” folder. Each bullet point is followed by a screenshot of the relevant annotated code. 
 
-- In total, **369,711 votes were cast in this election**. The following code was used to determine this.
+- In total, **369,711 votes were cast in this election**.
 
 <img width="294" alt="Insert_1" src="https://user-images.githubusercontent.com/114126935/197407394-fd9b9344-640f-4010-aae3-76c61a57cc34.png">
 
