@@ -9,19 +9,25 @@ The purpose of this audit is to determine election results by candidate and by c
 #### All of the analysis referenced here was done based on the contents of the “election_results.csv” file located in the “Resources” folder. Each bullet point is followed by a screenshot of the relevant annotated code. 
 
 - In total, **369,711 votes were cast in this election**. The following code was used to determine this.
-[INSERT PIC]
+
+<img width="294" alt="Insert_1" src="https://user-images.githubusercontent.com/114126935/197407394-fd9b9344-640f-4010-aae3-76c61a57cc34.png">
 
 - Three counties participated in this election. **Jefferson County** had **38,855 voters**, making **10.5%** of the total voter turnout. **Denver County** had **306,055 voters**, making **82.8%** of the turnout. Finally, **Arapahoe County** turned out **24,801 voters**, making **6.7%** of the total.
-[INSERT PIC]
+
+<img width="696" alt="Insert_2" src="https://user-images.githubusercontent.com/114126935/197407429-a18eb119-2bac-4ae3-a50e-275554acf0ca.png">
+
 
 - Denver County had the largest number of votes.
-[INSERT PIC]
+
+<img width="616" alt="Insert_3" src="https://user-images.githubusercontent.com/114126935/197407447-c8fb7dcc-e9d5-490c-9ee1-175e56e9dfe9.png">
 
 - Three candidates participated in this election. **Charles Casper Stockham** received **23.0% of the vote** with **85,213** total votes. **Diana DeGette** received **73.8% of the vote** with **272,892** total votes. Finally, **Raymon Anthony Doane** received **3.1% of the vote** with **11,606** total votes.
-[INSERT PIC]
+
+<img width="696" alt="Insert_4" src="https://user-images.githubusercontent.com/114126935/197407458-e41fc847-3812-4836-8201-5b491c25ba96.png">
 
 - The winner of the election was **Diana DeGette** with **272,892 total votes**, making **73.8%** of the total.
-[INSERT PIC]
+
+<img width="555" alt="Insert_5" src="https://user-images.githubusercontent.com/114126935/197407466-879a3a44-8100-46db-b74f-610b5f4f96fa.png">
 
 ## Summary
 
