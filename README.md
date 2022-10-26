@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this audit is to determine election results by candidate and by county. It determines the vote count and percentage of the total vote for each candidate and each county. It also determined the winning candidate and the county with the largest voter turnout. 
+The purpose of this audit is to determine election results by candidate and by county. It determines the vote count and percentage of the total vote for each candidate and each county. It also determines the winning candidate and the county with the largest voter turnout. 
 
 ## Results
 
